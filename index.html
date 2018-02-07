@@ -1,28 +1,11 @@
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Viz</title>
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-  </head>
-  <h3>Hello world!</h3>
-  <body>
-    <script type="text/javascript">
-    console.log('Hello!');
-    d3.csv("/data/Feeling_of_happiness_95_99.csv", function(data) {
-      console.log("This: ", data[0]);
-    });
-
-    </script>
-  </body>
 </html> -->
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>IVIS18</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
@@ -46,15 +29,40 @@
   </div> -->
 </div>
 
-<!-- ANALYTIC TRAIL 1 -->
+<!-- ANALYTIC TRAIL -->
 <div class="row">
-    <p class="w3-large w3-center">Analytic trail 1</p>
+    <p class="w3-large w3-center">Analytic trail</p>
     <div class="center-block">
-      Content goes here
+      At first I went through the
+      <a href="http://www.worldvaluessurvey.org/WVSContents.jsp">World Value Survey
+      </a> documentation in order to find interesting questions where answers had
+      evolved over time. I saved the snapshots of my findings create a data record
+      of eight variables.
+      <div class="slide-container">
+        <img src="images/datatrail1.jpg" />
+        <img src="images/datatrail2.jpg" />
+        <img src="images/datatrail3.jpg" />
+        <img src="images/datatrail4.jpg" />
+        <img src="images/datatrail5.jpg" />
+        <img src="images/datatrail6.jpg" />
+        <img src="images/datatrail7.jpg" />
+        <img src="images/datatrail8.jpg" />
+      </div>
+      <p align="center" style="padding: 5;">
+        <i>Slide right / left to showcase different data variables</i>
+      </p>
+      The
+
     </div>
 </div>
 
-<br><br><br><br><br>
+<script>
+  d3.json("/data/happiness95.json", function(data) {
+    console.log(data[0]);
+    });
+</script>
+
+<br><br><br>
 
 <!-- ANALYTIC TRAIL 2 -->
 <div class="row">
