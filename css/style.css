@@ -1,0 +1,25 @@
+body, h1 {
+  font-family: "Raleway", sans-serif
+}
+
+body, html {
+  height: 100%;
+  background: #151515;
+  color: white;
+}
+
+body {}
+
+.bgimg {
+    background-image: url('/images/top_bg.png');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.center-block {
+  width: 90%;
+  background-color: #F4F3F4;
+  color: black;
+  padding: 20 20 20 20;
+}
