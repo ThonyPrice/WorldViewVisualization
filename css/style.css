@@ -23,3 +23,10 @@ body {}
   color: black;
   padding: 20 20 20 20;
 }
+
+.slide-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding-top: 20;
+  padding-bottom: 12;
+}
