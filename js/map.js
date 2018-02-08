@@ -24,7 +24,7 @@ projection = d3.geo.mercator()
 path = d3.geo.path().projection(projection);
 
 svg = d3.select("#container").append("svg")
-    .attr("width", width)
+    .attr("width", width*0.95)
     .attr("height", height)
     .call(zoom)
     .on("click", click)
@@ -69,6 +69,11 @@ country.enter().insert("path")
 //offsets for tooltips
 var offsetL = document.getElementById('container').offsetLeft+20;
 var offsetT = document.getElementById('container').offsetTop+10;
+
+country
+  .on("click", function(d, i) {
+    printCountry(d, i);
+  });
 
 //tooltips
 country
