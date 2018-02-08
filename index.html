@@ -29,13 +29,13 @@
   </div> -->
 </div>
 
-<!-- ANALYTIC TRAIL -->
+<!-- DATA GATHERING -->
 <div class="row">
-    <p class="w3-large w3-center">Analytic trail</p>
+    <p class="w3-large w3-center">Data Gathering</p>
     <div class="center-block">
-      At first I went through the
+      I went through the
       <a href="http://www.worldvaluessurvey.org/WVSContents.jsp">World Value Survey
-      </a> documentation in order to find interesting questions where answers had
+      </a> (WVS) documentation in order to find interesting questions where answers had
       evolved over time. I saved the snapshots of my findings create a data record
       of eight variables.
       <div class="slide-container">
@@ -51,30 +51,42 @@
       <p align="center" style="padding: 5;">
         <i>Slide right / left to showcase different data variables</i>
       </p>
-      The
+      Unfortunately the online tool on WVS can't display timelines over
+      larger timespans than three surveys and makes it hard to find correlation
+      between the questions.
 
     </div>
 </div>
 
-<script>
-  d3.json("/data/happiness95.json", function(data) {
-    console.log(data[0]);
-    });
-</script>
+<br><br>
+
+<!-- ANALYTIC TRAIL -->
+<div class="row">
+  <p class="w3-large w3-center">Analytic trail</p>
+  <div class="center-block">
+    At a first glance we see that Happiness seems to increase, we wish
+    to investigate the increase over time and countries.
+    <br><br>
+    <div align="right">
+      <input type="checkbox"> <strong>Sort values</strong>
+    </div>
+    <div class="barchart" id="barchart"></div>
+    <script src="js/barchart.js"></script>
+
+  </div>
+
+    <script>
+      d3.json("/data/happiness95.json", function(data) {
+        console.log(data[0]);
+        });
+    </script>
+
+
+</div>
 
 <br><br><br>
-
-<!-- ANALYTIC TRAIL 2 -->
-<div class="row">
-    <p class="w3-large w3-center">Analytic trail 2</p>
-    <div class="center-block">
-      Content goes here
-    </div>
-</div>
-
-
-<br><br><br><br><br><br><br><br><br><br>
 By: Thony Price (C) 2018
+<br><br>
 
 </body>
 </html>
