@@ -72,11 +72,11 @@
     <script src="js/barchart.js"></script> -->
   </div>
 
-    <script>
+    <!-- <script>
       d3.json("/data/happiness95.json", function(data) {
         console.log(data[0]);
         });
-    </script>
+    </script> -->
 
 </div>
 
@@ -97,10 +97,65 @@
 <!-- MAP FEATURES -->
 <div class="row">
   <div class="center-block">
-    Some text places below the map???
-    <div id="click-feature">
-
+    <p align="center">
+      <h4 align="center">Select a country to view results in WVS questions</h4>
+    </p>
+    <div class="inline" align="center">
+      <div class="inline"><i align="center">Currently Selected: </i></div>
+      <div class="inline" id="click-feature"> None </div> <!-- Clicking on the map puts country name in here -->
+    </div><br>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-3 radarChart1">1995  -  1999</div>
+        <div class="col-md-3 radarChart2">2000  -  2004</div>
+        <div class="col-md-3 radarChart3">2005  -  2009</div>
+        <div class="col-md-3 radarChart4">2010  -  2014</div>
+      </div>
     </div>
+
+    <script src="js/radarChart.js"></script>
+    <script>
+      //////////////////////////////////////////////////////////////
+      //////////////////////// Set-Up //////////////////////////////
+      //////////////////////////////////////////////////////////////
+
+      var margin = {top: 50, right: 100, bottom: 50, left: 50},
+        width = Math.min(400, window.innerWidth - 10) - margin.left - margin.right,
+        height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+
+      //////////////////////////////////////////////////////////////
+      //////////////////// Draw the Chart //////////////////////////
+      //////////////////////////////////////////////////////////////
+
+      var color = d3.scale.ordinal()
+        .range(["#EDC951","#CC333F","#00A0B0"]);
+
+      var radarChartOptions = {
+        w: width,
+        h: height,
+        margin: margin,
+        maxValue: 0.5,
+        levels: 5,
+        roundStrokes: true,
+        color: color
+      };
+
+      //Load the data and Call function to draw the Radar chart
+      d3.json("data.json", function(error, data){
+        RadarChart(".radarChart1", data, radarChartOptions);
+      });
+      d3.json("data.json", function(error, data){
+        RadarChart(".radarChart2", data, radarChartOptions);
+      });
+      d3.json("data.json", function(error, data){
+        RadarChart(".radarChart3", data, radarChartOptions);
+      });
+      d3.json("data.json", function(error, data){
+        RadarChart(".radarChart4", data, radarChartOptions);
+      });
+
+    </script>
+
   </div>
 </div>
 
