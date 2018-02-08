@@ -8,7 +8,18 @@ body, html {
   color: white;
 }
 
-body {}
+body {
+
+}
+
+.legend {
+  font-family: 'Raleway', sans-serif;
+  fill: #333333;
+}
+
+.tooltip {
+  fill: #333333;
+}
 
 .bgimg {
     background-image: url('/images/top_bg.png');
@@ -98,4 +109,7 @@ div.tooltip {
 .equator {
   stroke: #ccc;
   stroke-width: 1px;
+}
+#click-feature {
+  font-size: 36px;
 }
