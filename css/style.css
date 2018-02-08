@@ -29,6 +29,8 @@ body {}
   white-space: nowrap;
   padding-top: 20;
   padding-bottom: 12;
+  border:2px solid #000;
+  border-radius: 5px;
 }
 
 .axis text {
@@ -66,12 +68,13 @@ label {
   text-transform:capitalize;
 }
 #container {
-  margin:10px 10%;
+  /* margin:10px 10%; */
+  padding: 20 20 20 20;
   border:2px solid #000;
   border-radius: 5px;
-  height:100%;
+  height: 60%;
   overflow:hidden;
-  background: #F0F8FF;
+  background: #F4F3F4;
 }
 .hidden {
   display: none;
