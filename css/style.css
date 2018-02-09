@@ -40,8 +40,6 @@ body {
   white-space: nowrap;
   padding-top: 20;
   padding-bottom: 12;
-  border:2px solid #000;
-  border-radius: 5px;
 }
 
 .axis text {
