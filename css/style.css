@@ -12,6 +12,8 @@ body {
 
 }
 
+
+
 .legend {
   font-family: 'Raleway', sans-serif;
   fill: #333333;
@@ -108,6 +110,14 @@ div.tooltip {
   stroke: #ccc;
   stroke-width: 1px;
 }
-#click-feature {
-  font-size: 36px;
+#click-feature-1 {
+  font-size: 28px;
+}
+
+#click-feature-2 {
+  font-size: 28px;
+}
+
+#click-feature-3 {
+  font-size: 28px;
 }
