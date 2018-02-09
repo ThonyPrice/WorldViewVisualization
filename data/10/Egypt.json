@@ -28,4 +28,34 @@
 "value":0.238}
 ]
 }
+,
+{
+"key":"Total",
+"values":[
+{
+"axis": "Happiness",
+"value":0.836},
+{
+"axis": "Freedom",
+"value":0.706},
+{
+"axis": "Leisure time",
+"value":0.778},
+{
+"axis": "Religion",
+"value":0.714},
+{
+"axis": "Work",
+"value":0.875},
+{
+"axis": "Satisfaction",
+"value":0.682},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
 ]
