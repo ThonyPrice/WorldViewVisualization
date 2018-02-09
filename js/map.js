@@ -58,13 +58,25 @@ g.append("path")
 
 
 var country = g.selectAll(".country").data(topo);
+var countries = ['Pakistan', 'Estonia', 'Kazakhstan', 'Tunisia', 'Puerto Rico', 'Moldova', 'Bulgaria', 'Palestine', 'Macedonia', 'Lebanon', 'Zimbabwe', 'Norway', 'Indonesia', 'Total', 'Serbia', 'Brazil', 'Iraq', 'Finland',
+  'Haiti', 'Latvia', 'Ghana', 'Iran', 'India', 'Ukraine', 'Ethiopia', 'South Korea', 'Peru', 'El Salvador', 'Trinidad and Tobago', 'Netherlands', 'Italy', 'Burkina Faso', 'Germany', 'Lithuania', 'Slovenia', 'Philippines',
+  'Jordan', 'Slovakia', 'China', 'Bosnia Herzegovina', 'Poland', 'Algeria', 'France', 'Australia', 'Taiwan', 'Kyrgyzstan', 'Japan', 'United States', 'Sweden', 'Turkey', 'Egypt', 'Andorra', 'Mexico', 'Bosnia', 'Libya', 'Uganda',
+  'Kuwait', 'United Kingdom', 'Uzbekistan', 'Guatemala', 'Hungary', 'Russia', 'Chile', 'Bangladesh', 'Azerbaijan', 'Georgia', 'Montenegro', 'Venezuela', 'Cyprus', 'Thailand', 'Tanzania', 'Hong Kong', 'Singapore', 'Malaysia',
+  'Zambia', 'Nigeria', 'Saudi Arabia', 'Viet Nam', 'Mali', 'South Africa', 'Qatar', 'Ecuador', 'Spain', 'Serbia and Montenegro', 'Canada', 'Rwanda', 'Yemen', 'Argentina', 'Czech Rep.', 'Romania', 'Dominican Rep.', 'Armenia', 'Albania',
+  'Switzerland', 'Colombia', 'Belarus', 'Uruguay', 'Croatia', 'Morocco', 'New Zealand']
 
 country.enter().insert("path")
     .attr("class", "country")
     .attr("d", path)
     .attr("id", function(d,i) { return d.id; })
     .attr("title", function(d,i) { return d.properties.name; })
-    .style("fill", function(d, i) { return d.properties.color; });
+    .style("fill", function(d, i) {
+      if (countries.includes(d.properties.name)) {
+        return d.properties.color;
+      } else {
+        return "#aaaaaa";
+      }
+    });
 
 //offsets for tooltips
 var offsetL = document.getElementById('container').offsetLeft+20;
