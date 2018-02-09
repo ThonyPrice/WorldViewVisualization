@@ -6,6 +6,11 @@ function printCountry(d, i) {
   console.log("You clicked: ", country);
   document.getElementById("click-feature").innerHTML = country;
 
+  var path1 = "data/95/" + country + ".json";
+  var path2 = "data/00/" + country + ".json";
+  var path3 = "data/05/" + country + ".json";
+  var path4 = "data/10/" + country + ".json";
+
   d3.json("/data/happiness95.json", function(data) {
     for (var key in data) {
         if (data[key].Country == country) {
@@ -40,16 +45,16 @@ function printCountry(d, i) {
   };
 
   //Load the data and Call function to draw the Radar chart
-  d3.json("data.json", function(error, data){
+  d3.json(path1, function(error, data){
     RadarChart(".radarChart1", data, radarChartOptions);
   });
-  d3.json("data.json", function(error, data){
+  d3.json(path2, function(error, data){
     RadarChart(".radarChart2", data, radarChartOptions);
   });
-  d3.json("data.json", function(error, data){
+  d3.json(path3, function(error, data){
     RadarChart(".radarChart3", data, radarChartOptions);
   });
-  d3.json("data.json", function(error, data){
+  d3.json(path4, function(error, data){
     RadarChart(".radarChart4", data, radarChartOptions);
   });
 
