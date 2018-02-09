@@ -22,7 +22,7 @@ body {
 }
 
 .bgimg {
-    background-image: url('/images/top_bg.png');
+    background-image: url('../images/top_bg.png');
     min-height: 100%;
     background-position: center;
     background-size: cover;
