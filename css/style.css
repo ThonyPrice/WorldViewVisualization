@@ -121,3 +121,22 @@ div.tooltip {
 #click-feature-3 {
   font-size: 28px;
 }
+
+.first-chart {
+  background-color: #cccccc;
+}
+.second-chart {
+  background-color: #bbbbbb;
+}
+.third-chart {
+  background-color: #aaaaaa;
+}
+.btn-1 {
+  background-color: #cccccc;
+}
+.btn-2 {
+  background-color: #bbbbbb;
+}
+.btn-3 {
+  background-color: #aaaaaa;
+}
