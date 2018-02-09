@@ -1,0 +1,31 @@
+[
+{
+"key":"Moldova",
+"values":[
+{
+"axis": "Happiness",
+"value":0.434},
+{
+"axis": "Freedom",
+"value":0.578},
+{
+"axis": "Leisure time",
+"value":0.682},
+{
+"axis": "Religion",
+"value":0.665},
+{
+"axis": "Work",
+"value":0.849},
+{
+"axis": "Satisfaction",
+"value":0.373},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

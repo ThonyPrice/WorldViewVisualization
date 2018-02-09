@@ -1,0 +1,31 @@
+[
+{
+"key":"Morocco",
+"values":[
+{
+"axis": "Happiness",
+"value":0.799},
+{
+"axis": "Freedom",
+"value":0.614},
+{
+"axis": "Leisure time",
+"value":0.737},
+{
+"axis": "Religion",
+"value":0.992},
+{
+"axis": "Work",
+"value":0.964},
+{
+"axis": "Satisfaction",
+"value":0.583},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

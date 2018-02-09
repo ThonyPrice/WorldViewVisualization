@@ -1,0 +1,31 @@
+[
+{
+"key":"Qatar",
+"values":[
+{
+"axis": "Happiness",
+"value":0.98},
+{
+"axis": "Freedom",
+"value":0.793},
+{
+"axis": "Leisure time",
+"value":0.834},
+{
+"axis": "Religion",
+"value":0.998},
+{
+"axis": "Work",
+"value":0.944},
+{
+"axis": "Satisfaction",
+"value":0.8},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

@@ -1,0 +1,31 @@
+[
+{
+"key":"Guatemala",
+"values":[
+{
+"axis": "Happiness",
+"value":0.78},
+{
+"axis": "Freedom",
+"value":0.744},
+{
+"axis": "Leisure time",
+"value":0.889},
+{
+"axis": "Religion",
+"value":0.956},
+{
+"axis": "Work",
+"value":0.993},
+{
+"axis": "Satisfaction",
+"value":0.793},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

@@ -1,0 +1,31 @@
+[
+{
+"key":"Croatia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.694},
+{
+"axis": "Freedom",
+"value":0.649},
+{
+"axis": "Leisure time",
+"value":0.755},
+{
+"axis": "Religion",
+"value":0.555},
+{
+"axis": "Work",
+"value":0.905},
+{
+"axis": "Satisfaction",
+"value":0.618},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

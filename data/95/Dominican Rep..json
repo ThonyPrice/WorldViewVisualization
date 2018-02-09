@@ -1,0 +1,31 @@
+[
+{
+"key":"Dominican Rep.",
+"values":[
+{
+"axis": "Happiness",
+"value":0.724},
+{
+"axis": "Freedom",
+"value":0.737},
+{
+"axis": "Leisure time",
+"value":0.669},
+{
+"axis": "Religion",
+"value":0.817},
+{
+"axis": "Work",
+"value":0.924},
+{
+"axis": "Satisfaction",
+"value":0.713},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

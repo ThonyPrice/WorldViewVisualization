@@ -1,0 +1,31 @@
+[
+{
+"key":"South Korea",
+"values":[
+{
+"axis": "Happiness",
+"value":0.874},
+{
+"axis": "Freedom",
+"value":0.668},
+{
+"axis": "Leisure time",
+"value":0.85},
+{
+"axis": "Religion",
+"value":0.469},
+{
+"axis": "Work",
+"value":0.91},
+{
+"axis": "Satisfaction",
+"value":0.635},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

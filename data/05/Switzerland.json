@@ -1,0 +1,31 @@
+[
+{
+"key":"Switzerland",
+"values":[
+{
+"axis": "Happiness",
+"value":0.935},
+{
+"axis": "Freedom",
+"value":0.758},
+{
+"axis": "Leisure time",
+"value":0.909},
+{
+"axis": "Religion",
+"value":0.454},
+{
+"axis": "Work",
+"value":0.919},
+{
+"axis": "Satisfaction",
+"value":0.801},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

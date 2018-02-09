@@ -1,0 +1,31 @@
+[
+{
+"key":"Georgia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.652},
+{
+"axis": "Freedom",
+"value":0.617},
+{
+"axis": "Leisure time",
+"value":0.81},
+{
+"axis": "Religion",
+"value":0.834},
+{
+"axis": "Work",
+"value":0.794},
+{
+"axis": "Satisfaction",
+"value":0.468},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

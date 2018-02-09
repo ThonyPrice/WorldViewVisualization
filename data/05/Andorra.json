@@ -1,0 +1,31 @@
+[
+{
+"key":"Andorra",
+"values":[
+{
+"axis": "Happiness",
+"value":0.925},
+{
+"axis": "Freedom",
+"value":0.772},
+{
+"axis": "Leisure time",
+"value":0.944},
+{
+"axis": "Religion",
+"value":0.291},
+{
+"axis": "Work",
+"value":0.925},
+{
+"axis": "Satisfaction",
+"value":0.713},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

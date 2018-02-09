@@ -1,0 +1,31 @@
+[
+{
+"key":"Sweden",
+"values":[
+{
+"axis": "Happiness",
+"value":0.934},
+{
+"axis": "Freedom",
+"value":0.741},
+{
+"axis": "Leisure time",
+"value":0.935},
+{
+"axis": "Religion",
+"value":0.348},
+{
+"axis": "Work",
+"value":0.906},
+{
+"axis": "Satisfaction",
+"value":0.765},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

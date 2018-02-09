@@ -1,0 +1,31 @@
+[
+{
+"key":"Romania",
+"values":[
+{
+"axis": "Happiness",
+"value":0.69},
+{
+"axis": "Freedom",
+"value":0.788},
+{
+"axis": "Leisure time",
+"value":0.785},
+{
+"axis": "Religion",
+"value":0.838},
+{
+"axis": "Work",
+"value":0.902},
+{
+"axis": "Satisfaction",
+"value":0.669},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

@@ -1,0 +1,31 @@
+[
+{
+"key":"Saudi Arabia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.913},
+{
+"axis": "Freedom",
+"value":0.66},
+{
+"axis": "Leisure time",
+"value":0.636},
+{
+"axis": "Religion",
+"value":0.974},
+{
+"axis": "Work",
+"value":0.859},
+{
+"axis": "Satisfaction",
+"value":0.728},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

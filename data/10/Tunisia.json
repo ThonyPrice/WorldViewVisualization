@@ -1,0 +1,31 @@
+[
+{
+"key":"Tunisia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.793},
+{
+"axis": "Freedom",
+"value":0.664},
+{
+"axis": "Leisure time",
+"value":0.685},
+{
+"axis": "Religion",
+"value":0.981},
+{
+"axis": "Work",
+"value":0.942},
+{
+"axis": "Satisfaction",
+"value":0.558},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

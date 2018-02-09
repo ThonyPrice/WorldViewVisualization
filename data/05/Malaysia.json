@@ -1,0 +1,31 @@
+[
+{
+"key":"Malaysia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.948},
+{
+"axis": "Freedom",
+"value":0.731},
+{
+"axis": "Leisure time",
+"value":0.866},
+{
+"axis": "Religion",
+"value":0.959},
+{
+"axis": "Work",
+"value":0.939},
+{
+"axis": "Satisfaction",
+"value":0.684},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

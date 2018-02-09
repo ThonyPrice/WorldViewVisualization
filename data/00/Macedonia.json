@@ -1,0 +1,31 @@
+[
+{
+"key":"Macedonia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.746},
+{
+"axis": "Freedom",
+"value":0.577},
+{
+"axis": "Leisure time",
+"value":0.8},
+{
+"axis": "Religion",
+"value":0.772},
+{
+"axis": "Work",
+"value":0.936},
+{
+"axis": "Satisfaction",
+"value":0.512},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

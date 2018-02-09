@@ -1,0 +1,31 @@
+[
+{
+"key":"Russia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.502},
+{
+"axis": "Freedom",
+"value":0.54},
+{
+"axis": "Leisure time",
+"value":0.703},
+{
+"axis": "Religion",
+"value":0.399},
+{
+"axis": "Work",
+"value":0.827},
+{
+"axis": "Satisfaction",
+"value":0.445},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

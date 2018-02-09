@@ -1,0 +1,31 @@
+[
+{
+"key":"Uganda",
+"values":[
+{
+"axis": "Happiness",
+"value":0.788},
+{
+"axis": "Freedom",
+"value":0.678},
+{
+"axis": "Leisure time",
+"value":0.813},
+{
+"axis": "Religion",
+"value":0.948},
+{
+"axis": "Work",
+"value":0.951},
+{
+"axis": "Satisfaction",
+"value":0.562},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

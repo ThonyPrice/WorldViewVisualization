@@ -1,0 +1,31 @@
+[
+{
+"key":"Mexico",
+"values":[
+{
+"axis": "Happiness",
+"value":0.696},
+{
+"axis": "Freedom",
+"value":0.756},
+{
+"axis": "Leisure time",
+"value":0.72},
+{
+"axis": "Religion",
+"value":0.786},
+{
+"axis": "Work",
+"value":0.916},
+{
+"axis": "Satisfaction",
+"value":0.769},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

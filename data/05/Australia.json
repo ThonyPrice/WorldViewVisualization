@@ -1,0 +1,31 @@
+[
+{
+"key":"Australia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.916},
+{
+"axis": "Freedom",
+"value":0.764},
+{
+"axis": "Leisure time",
+"value":0.905},
+{
+"axis": "Religion",
+"value":0.386},
+{
+"axis": "Work",
+"value":0.799},
+{
+"axis": "Satisfaction",
+"value":0.728},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

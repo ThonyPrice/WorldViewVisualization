@@ -1,0 +1,31 @@
+[
+{
+"key":"Bulgaria",
+"values":[
+{
+"axis": "Happiness",
+"value":0.555},
+{
+"axis": "Freedom",
+"value":0.525},
+{
+"axis": "Leisure time",
+"value":0.589},
+{
+"axis": "Religion",
+"value":0.405},
+{
+"axis": "Work",
+"value":0.834},
+{
+"axis": "Satisfaction",
+"value":0.466},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

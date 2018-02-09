@@ -1,0 +1,31 @@
+[
+{
+"key":"Haiti",
+"values":[
+{
+"axis": "Happiness",
+"value":0.835},
+{
+"axis": "Freedom",
+"value":0.502},
+{
+"axis": "Leisure time",
+"value":0.598},
+{
+"axis": "Religion",
+"value":0.754},
+{
+"axis": "Work",
+"value":0.922},
+{
+"axis": "Satisfaction",
+"value":0.559},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

@@ -1,0 +1,31 @@
+[
+{
+"key":"United States",
+"values":[
+{
+"axis": "Happiness",
+"value":0.938},
+{
+"axis": "Freedom",
+"value":0.758},
+{
+"axis": "Leisure time",
+"value":0.88},
+{
+"axis": "Religion",
+"value":0.821},
+{
+"axis": "Work",
+"value":0.857},
+{
+"axis": "Satisfaction",
+"value":0.767},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

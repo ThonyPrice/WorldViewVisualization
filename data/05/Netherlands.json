@@ -1,0 +1,31 @@
+[
+{
+"key":"Netherlands",
+"values":[
+{
+"axis": "Happiness",
+"value":0.939},
+{
+"axis": "Freedom",
+"value":0.668},
+{
+"axis": "Leisure time",
+"value":0.955},
+{
+"axis": "Religion",
+"value":0.302},
+{
+"axis": "Work",
+"value":0.766},
+{
+"axis": "Satisfaction",
+"value":0.776},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

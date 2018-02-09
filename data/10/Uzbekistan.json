@@ -1,0 +1,31 @@
+[
+{
+"key":"Uzbekistan",
+"values":[
+{
+"axis": "Happiness",
+"value":0.96},
+{
+"axis": "Freedom",
+"value":0.78},
+{
+"axis": "Leisure time",
+"value":0.657},
+{
+"axis": "Religion",
+"value":0.73},
+{
+"axis": "Work",
+"value":0.847},
+{
+"axis": "Satisfaction",
+"value":0.789},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

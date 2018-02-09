@@ -1,0 +1,31 @@
+[
+{
+"key":"Kuwait",
+"values":[
+{
+"axis": "Happiness",
+"value":0.916},
+{
+"axis": "Freedom",
+"value":0.796},
+{
+"axis": "Leisure time",
+"value":0.713},
+{
+"axis": "Religion",
+"value":0.939},
+{
+"axis": "Work",
+"value":0.922},
+{
+"axis": "Satisfaction",
+"value":0.721},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

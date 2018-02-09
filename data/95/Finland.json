@@ -1,0 +1,31 @@
+[
+{
+"key":"Finland",
+"values":[
+{
+"axis": "Happiness",
+"value":0.912},
+{
+"axis": "Freedom",
+"value":0.767},
+{
+"axis": "Leisure time",
+"value":0.903},
+{
+"axis": "Religion",
+"value":0.448},
+{
+"axis": "Work",
+"value":0.859},
+{
+"axis": "Satisfaction",
+"value":0.778},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

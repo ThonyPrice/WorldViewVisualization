@@ -1,0 +1,31 @@
+[
+{
+"key":"Burkina Faso",
+"values":[
+{
+"axis": "Happiness",
+"value":0.797},
+{
+"axis": "Freedom",
+"value":0.57},
+{
+"axis": "Leisure time",
+"value":0.544},
+{
+"axis": "Religion",
+"value":0.948},
+{
+"axis": "Work",
+"value":0.972},
+{
+"axis": "Satisfaction",
+"value":0.557},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

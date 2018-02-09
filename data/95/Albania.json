@@ -1,0 +1,31 @@
+[
+{
+"key":"Albania",
+"values":[
+{
+"axis": "Happiness",
+"value":0.334},
+{
+"axis": "Freedom",
+"value":0.473},
+{
+"axis": "Leisure time",
+"value":0.449},
+{
+"axis": "Religion",
+"value":0.587},
+{
+"axis": "Work",
+"value":0.955},
+{
+"axis": "Satisfaction",
+"value":0.477},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

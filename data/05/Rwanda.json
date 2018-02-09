@@ -1,0 +1,31 @@
+[
+{
+"key":"Rwanda",
+"values":[
+{
+"axis": "Happiness",
+"value":0.854},
+{
+"axis": "Freedom",
+"value":0.652},
+{
+"axis": "Leisure time",
+"value":0.95},
+{
+"axis": "Religion",
+"value":0.956},
+{
+"axis": "Work",
+"value":0.987},
+{
+"axis": "Satisfaction",
+"value":0.497},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

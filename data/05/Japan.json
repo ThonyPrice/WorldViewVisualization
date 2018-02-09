@@ -1,0 +1,31 @@
+[
+{
+"key":"Japan",
+"values":[
+{
+"axis": "Happiness",
+"value":0.873},
+{
+"axis": "Freedom",
+"value":0.608},
+{
+"axis": "Leisure time",
+"value":0.901},
+{
+"axis": "Religion",
+"value":0.173},
+{
+"axis": "Work",
+"value":0.849},
+{
+"axis": "Satisfaction",
+"value":0.699},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

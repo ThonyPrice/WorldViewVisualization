@@ -1,0 +1,31 @@
+[
+{
+"key":"Belarus",
+"values":[
+{
+"axis": "Happiness",
+"value":0.449},
+{
+"axis": "Freedom",
+"value":0.52},
+{
+"axis": "Leisure time",
+"value":0.731},
+{
+"axis": "Religion",
+"value":0.51},
+{
+"axis": "Work",
+"value":0.834},
+{
+"axis": "Satisfaction",
+"value":0.435},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

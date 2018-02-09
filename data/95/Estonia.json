@@ -1,0 +1,31 @@
+[
+{
+"key":"Estonia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.637},
+{
+"axis": "Freedom",
+"value":0.598},
+{
+"axis": "Leisure time",
+"value":0.75},
+{
+"axis": "Religion",
+"value":0.273},
+{
+"axis": "Work",
+"value":0.918},
+{
+"axis": "Satisfaction",
+"value":0.5},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

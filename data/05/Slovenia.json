@@ -1,0 +1,31 @@
+[
+{
+"key":"Slovenia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.798},
+{
+"axis": "Freedom",
+"value":0.749},
+{
+"axis": "Leisure time",
+"value":0.862},
+{
+"axis": "Religion",
+"value":0.423},
+{
+"axis": "Work",
+"value":0.921},
+{
+"axis": "Satisfaction",
+"value":0.724},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

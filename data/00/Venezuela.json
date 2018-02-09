@@ -1,0 +1,31 @@
+[
+{
+"key":"Venezuela",
+"values":[
+{
+"axis": "Happiness",
+"value":0.863},
+{
+"axis": "Freedom",
+"value":0.826},
+{
+"axis": "Leisure time",
+"value":0.899},
+{
+"axis": "Religion",
+"value":0.868},
+{
+"axis": "Work",
+"value":0.975},
+{
+"axis": "Satisfaction",
+"value":0.752},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

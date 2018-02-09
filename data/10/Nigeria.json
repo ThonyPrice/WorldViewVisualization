@@ -1,0 +1,31 @@
+[
+{
+"key":"Nigeria",
+"values":[
+{
+"axis": "Happiness",
+"value":0.847},
+{
+"axis": "Freedom",
+"value":0.722},
+{
+"axis": "Leisure time",
+"value":0.855},
+{
+"axis": "Religion",
+"value":0.975},
+{
+"axis": "Work",
+"value":0.931},
+{
+"axis": "Satisfaction",
+"value":0.625},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

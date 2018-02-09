@@ -1,0 +1,31 @@
+[
+{
+"key":"Puerto Rico",
+"values":[
+{
+"axis": "Happiness",
+"value":0.908},
+{
+"axis": "Freedom",
+"value":0.829},
+{
+"axis": "Leisure time",
+"value":0.884},
+{
+"axis": "Religion",
+"value":0.928},
+{
+"axis": "Work",
+"value":0.959},
+{
+"axis": "Satisfaction",
+"value":0.81},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

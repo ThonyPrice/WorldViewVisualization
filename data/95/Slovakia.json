@@ -1,0 +1,31 @@
+[
+{
+"key":"Slovakia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.714},
+{
+"axis": "Freedom",
+"value":0.638},
+{
+"axis": "Leisure time",
+"value":0.806},
+{
+"axis": "Religion",
+"value":0.542},
+{
+"axis": "Work",
+"value":0.887},
+{
+"axis": "Satisfaction",
+"value":0.607},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

@@ -1,0 +1,31 @@
+[
+{
+"key":"Egypt",
+"values":[
+{
+"axis": "Happiness",
+"value":0.894},
+{
+"axis": "Freedom",
+"value":0.547},
+{
+"axis": "Leisure time",
+"value":0.546},
+{
+"axis": "Religion",
+"value":0.998},
+{
+"axis": "Work",
+"value":0.902},
+{
+"axis": "Satisfaction",
+"value":0.536},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

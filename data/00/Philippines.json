@@ -1,0 +1,31 @@
+[
+{
+"key":"Philippines",
+"values":[
+{
+"axis": "Happiness",
+"value":0.876},
+{
+"axis": "Freedom",
+"value":0.684},
+{
+"axis": "Leisure time",
+"value":0.568},
+{
+"axis": "Religion",
+"value":0.974},
+{
+"axis": "Work",
+"value":0.99},
+{
+"axis": "Satisfaction",
+"value":0.667},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

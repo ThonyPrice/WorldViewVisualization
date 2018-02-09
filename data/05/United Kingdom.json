@@ -1,0 +1,31 @@
+[
+{
+"key":"United Kingdom",
+"values":[
+{
+"axis": "Happiness",
+"value":0.934},
+{
+"axis": "Freedom",
+"value":0.73},
+{
+"axis": "Leisure time",
+"value":0.887},
+{
+"axis": "Religion",
+"value":0.401},
+{
+"axis": "Work",
+"value":0.708},
+{
+"axis": "Satisfaction",
+"value":0.76},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

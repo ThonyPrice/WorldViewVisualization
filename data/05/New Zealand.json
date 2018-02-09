@@ -1,0 +1,31 @@
+[
+{
+"key":"New Zealand",
+"values":[
+{
+"axis": "Happiness",
+"value":0.965},
+{
+"axis": "Freedom",
+"value":0.791},
+{
+"axis": "Leisure time",
+"value":0.875},
+{
+"axis": "Religion",
+"value":0.343},
+{
+"axis": "Work",
+"value":0.823},
+{
+"axis": "Satisfaction",
+"value":0.789},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

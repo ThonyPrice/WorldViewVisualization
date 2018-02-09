@@ -1,0 +1,31 @@
+[
+{
+"key":"Kyrgyzstan",
+"values":[
+{
+"axis": "Happiness",
+"value":0.959},
+{
+"axis": "Freedom",
+"value":0.738},
+{
+"axis": "Leisure time",
+"value":0.681},
+{
+"axis": "Religion",
+"value":0.848},
+{
+"axis": "Work",
+"value":0.933},
+{
+"axis": "Satisfaction",
+"value":0.696},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

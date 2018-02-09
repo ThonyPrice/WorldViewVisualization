@@ -1,0 +1,31 @@
+[
+{
+"key":"Uruguay",
+"values":[
+{
+"axis": "Happiness",
+"value":0.794},
+{
+"axis": "Freedom",
+"value":0.7},
+{
+"axis": "Leisure time",
+"value":0.877},
+{
+"axis": "Religion",
+"value":0.489},
+{
+"axis": "Work",
+"value":0.948},
+{
+"axis": "Satisfaction",
+"value":0.706},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

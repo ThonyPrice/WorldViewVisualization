@@ -1,0 +1,31 @@
+[
+{
+"key":"Singapore",
+"values":[
+{
+"axis": "Happiness",
+"value":0.93},
+{
+"axis": "Freedom",
+"value":0.677},
+{
+"axis": "Leisure time",
+"value":0.879},
+{
+"axis": "Religion",
+"value":0.767},
+{
+"axis": "Work",
+"value":0.83},
+{
+"axis": "Satisfaction",
+"value":0.696},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

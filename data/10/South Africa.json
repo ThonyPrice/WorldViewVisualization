@@ -1,0 +1,31 @@
+[
+{
+"key":"South Africa",
+"values":[
+{
+"axis": "Happiness",
+"value":0.764},
+{
+"axis": "Freedom",
+"value":0.712},
+{
+"axis": "Leisure time",
+"value":0.72},
+{
+"axis": "Religion",
+"value":0.839},
+{
+"axis": "Work",
+"value":0.801},
+{
+"axis": "Satisfaction",
+"value":0.663},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

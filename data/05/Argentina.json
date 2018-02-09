@@ -1,0 +1,31 @@
+[
+{
+"key":"Argentina",
+"values":[
+{
+"axis": "Happiness",
+"value":0.876},
+{
+"axis": "Freedom",
+"value":0.789},
+{
+"axis": "Leisure time",
+"value":0.825},
+{
+"axis": "Religion",
+"value":0.647},
+{
+"axis": "Work",
+"value":0.961},
+{
+"axis": "Satisfaction",
+"value":0.779},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

@@ -1,0 +1,31 @@
+[
+{
+"key":"Montenegro",
+"values":[
+{
+"axis": "Happiness",
+"value":0.653},
+{
+"axis": "Freedom",
+"value":0.59},
+{
+"axis": "Leisure time",
+"value":0.703},
+{
+"axis": "Religion",
+"value":0.639},
+{
+"axis": "Work",
+"value":0.875},
+{
+"axis": "Satisfaction",
+"value":0.564},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

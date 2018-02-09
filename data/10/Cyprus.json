@@ -1,0 +1,31 @@
+[
+{
+"key":"Cyprus",
+"values":[
+{
+"axis": "Happiness",
+"value":0.817},
+{
+"axis": "Freedom",
+"value":0.754},
+{
+"axis": "Leisure time",
+"value":0.902},
+{
+"axis": "Religion",
+"value":0.799},
+{
+"axis": "Work",
+"value":0.92},
+{
+"axis": "Satisfaction",
+"value":0.716},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

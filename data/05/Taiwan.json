@@ -1,0 +1,31 @@
+[
+{
+"key":"Taiwan",
+"values":[
+{
+"axis": "Happiness",
+"value":0.851},
+{
+"axis": "Freedom",
+"value":0.732},
+{
+"axis": "Leisure time",
+"value":0.842},
+{
+"axis": "Religion",
+"value":0.517},
+{
+"axis": "Work",
+"value":0.9},
+{
+"axis": "Satisfaction",
+"value":0.658},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

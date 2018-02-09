@@ -1,0 +1,31 @@
+[
+{
+"key":"Ukraine",
+"values":[
+{
+"axis": "Happiness",
+"value":0.458},
+{
+"axis": "Freedom",
+"value":0.516},
+{
+"axis": "Leisure time",
+"value":0.691},
+{
+"axis": "Religion",
+"value":0.488},
+{
+"axis": "Work",
+"value":0.827},
+{
+"axis": "Satisfaction",
+"value":0.395},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

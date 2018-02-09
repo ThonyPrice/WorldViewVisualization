@@ -1,0 +1,31 @@
+[
+{
+"key":"Zambia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.516},
+{
+"axis": "Freedom",
+"value":0.72},
+{
+"axis": "Leisure time",
+"value":0.599},
+{
+"axis": "Religion",
+"value":0.919},
+{
+"axis": "Work",
+"value":0.92},
+{
+"axis": "Satisfaction",
+"value":0.606},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

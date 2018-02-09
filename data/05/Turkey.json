@@ -1,0 +1,31 @@
+[
+{
+"key":"Turkey",
+"values":[
+{
+"axis": "Happiness",
+"value":0.861},
+{
+"axis": "Freedom",
+"value":0.741},
+{
+"axis": "Leisure time",
+"value":0.873},
+{
+"axis": "Religion",
+"value":0.912},
+{
+"axis": "Work",
+"value":0.865},
+{
+"axis": "Satisfaction",
+"value":0.746},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

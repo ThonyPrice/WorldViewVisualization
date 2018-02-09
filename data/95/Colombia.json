@@ -1,0 +1,31 @@
+[
+{
+"key":"Colombia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.843},
+{
+"axis": "Freedom",
+"value":0.789},
+{
+"axis": "Leisure time",
+"value":0.882},
+{
+"axis": "Religion",
+"value":0.877},
+{
+"axis": "Work",
+"value":0.989},
+{
+"axis": "Satisfaction",
+"value":0.831},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

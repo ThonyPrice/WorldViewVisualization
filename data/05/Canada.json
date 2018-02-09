@@ -1,0 +1,31 @@
+[
+{
+"key":"Canada",
+"values":[
+{
+"axis": "Happiness",
+"value":0.952},
+{
+"axis": "Freedom",
+"value":0.763},
+{
+"axis": "Leisure time",
+"value":0.884},
+{
+"axis": "Religion",
+"value":0.587},
+{
+"axis": "Work",
+"value":0.856},
+{
+"axis": "Satisfaction",
+"value":0.776},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

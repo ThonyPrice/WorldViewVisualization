@@ -1,0 +1,31 @@
+[
+{
+"key":"Mali",
+"values":[
+{
+"axis": "Happiness",
+"value":0.826},
+{
+"axis": "Freedom",
+"value":0.612},
+{
+"axis": "Leisure time",
+"value":0.652},
+{
+"axis": "Religion",
+"value":0.965},
+{
+"axis": "Work",
+"value":0.944},
+{
+"axis": "Satisfaction",
+"value":0.609},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

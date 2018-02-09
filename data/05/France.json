@@ -1,0 +1,31 @@
+[
+{
+"key":"France",
+"values":[
+{
+"axis": "Happiness",
+"value":0.901},
+{
+"axis": "Freedom",
+"value":0.668},
+{
+"axis": "Leisure time",
+"value":0.867},
+{
+"axis": "Religion",
+"value":0.408},
+{
+"axis": "Work",
+"value":0.929},
+{
+"axis": "Satisfaction",
+"value":0.691},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

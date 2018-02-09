@@ -1,0 +1,31 @@
+[
+{
+"key":"Bosnia Herzegovina",
+"values":[
+{
+"axis": "Happiness",
+"value":0.819},
+{
+"axis": "Freedom",
+"value":0.634},
+{
+"axis": "Leisure time",
+"value":0.871},
+{
+"axis": "Religion",
+"value":0.701},
+{
+"axis": "Work",
+"value":0.888},
+{
+"axis": "Satisfaction",
+"value":0.577},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

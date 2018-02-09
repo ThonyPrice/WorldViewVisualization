@@ -1,0 +1,31 @@
+[
+{
+"key":"Poland",
+"values":[
+{
+"axis": "Happiness",
+"value":0.926},
+{
+"axis": "Freedom",
+"value":0.667},
+{
+"axis": "Leisure time",
+"value":0.855},
+{
+"axis": "Religion",
+"value":0.796},
+{
+"axis": "Work",
+"value":0.892},
+{
+"axis": "Satisfaction",
+"value":0.709},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

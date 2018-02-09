@@ -1,0 +1,31 @@
+[
+{
+"key":"Ghana",
+"values":[
+{
+"axis": "Happiness",
+"value":0.785},
+{
+"axis": "Freedom",
+"value":0.709},
+{
+"axis": "Leisure time",
+"value":0.822},
+{
+"axis": "Religion",
+"value":0.973},
+{
+"axis": "Work",
+"value":0.977},
+{
+"axis": "Satisfaction",
+"value":0.612},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

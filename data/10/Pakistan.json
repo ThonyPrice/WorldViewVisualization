@@ -1,0 +1,31 @@
+[
+{
+"key":"Pakistan",
+"values":[
+{
+"axis": "Happiness",
+"value":0.847},
+{
+"axis": "Freedom",
+"value":0.734},
+{
+"axis": "Leisure time",
+"value":0.537},
+{
+"axis": "Religion",
+"value":0.975},
+{
+"axis": "Work",
+"value":0.901},
+{
+"axis": "Satisfaction",
+"value":0.754},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

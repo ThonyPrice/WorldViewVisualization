@@ -1,0 +1,31 @@
+[
+{
+"key":"Norway",
+"values":[
+{
+"axis": "Happiness",
+"value":0.963},
+{
+"axis": "Freedom",
+"value":0.771},
+{
+"axis": "Leisure time",
+"value":0.947},
+{
+"axis": "Religion",
+"value":0.327},
+{
+"axis": "Work",
+"value":0.925},
+{
+"axis": "Satisfaction",
+"value":0.796},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

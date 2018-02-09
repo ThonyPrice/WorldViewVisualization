@@ -1,0 +1,31 @@
+[
+{
+"key":"Algeria",
+"values":[
+{
+"axis": "Happiness",
+"value":0.755},
+{
+"axis": "Freedom",
+"value":0.666},
+{
+"axis": "Leisure time",
+"value":0.674},
+{
+"axis": "Religion",
+"value":0.974},
+{
+"axis": "Work",
+"value":0.869},
+{
+"axis": "Satisfaction",
+"value":0.63},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

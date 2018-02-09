@@ -1,0 +1,31 @@
+[
+{
+"key":"Hungary",
+"values":[
+{
+"axis": "Happiness",
+"value":0.756},
+{
+"axis": "Freedom",
+"value":0.584},
+{
+"axis": "Leisure time",
+"value":0.827},
+{
+"axis": "Religion",
+"value":0.377},
+{
+"axis": "Work",
+"value":0.863},
+{
+"axis": "Satisfaction",
+"value":0.591},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

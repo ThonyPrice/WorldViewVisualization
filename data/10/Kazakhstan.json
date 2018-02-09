@@ -1,0 +1,31 @@
+[
+{
+"key":"Kazakhstan",
+"values":[
+{
+"axis": "Happiness",
+"value":0.885},
+{
+"axis": "Freedom",
+"value":0.703},
+{
+"axis": "Leisure time",
+"value":0.798},
+{
+"axis": "Religion",
+"value":0.55},
+{
+"axis": "Work",
+"value":0.85},
+{
+"axis": "Satisfaction",
+"value":0.723},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

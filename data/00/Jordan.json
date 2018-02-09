@@ -1,0 +1,31 @@
+[
+{
+"key":"Jordan",
+"values":[
+{
+"axis": "Happiness",
+"value":0.829},
+{
+"axis": "Freedom",
+"value":0.726},
+{
+"axis": "Leisure time",
+"value":0.572},
+{
+"axis": "Religion",
+"value":0.993},
+{
+"axis": "Work",
+"value":0.842},
+{
+"axis": "Satisfaction",
+"value":0.564},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

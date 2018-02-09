@@ -1,0 +1,31 @@
+[
+{
+"key":"Armenia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.548},
+{
+"axis": "Freedom",
+"value":0.566},
+{
+"axis": "Leisure time",
+"value":0.704},
+{
+"axis": "Religion",
+"value":0.618},
+{
+"axis": "Work",
+"value":0.936},
+{
+"axis": "Satisfaction",
+"value":0.432},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

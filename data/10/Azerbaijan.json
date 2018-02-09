@@ -1,0 +1,31 @@
+[
+{
+"key":"Azerbaijan",
+"values":[
+{
+"axis": "Happiness",
+"value":0.806},
+{
+"axis": "Freedom",
+"value":0.723},
+{
+"axis": "Leisure time",
+"value":0.658},
+{
+"axis": "Religion",
+"value":0.692},
+{
+"axis": "Work",
+"value":0.833},
+{
+"axis": "Satisfaction",
+"value":0.666},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

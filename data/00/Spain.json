@@ -1,0 +1,31 @@
+[
+{
+"key":"Spain",
+"values":[
+{
+"axis": "Happiness",
+"value":0.87},
+{
+"axis": "Freedom",
+"value":0.673},
+{
+"axis": "Leisure time",
+"value":0.867},
+{
+"axis": "Religion",
+"value":0.492},
+{
+"axis": "Work",
+"value":0.894},
+{
+"axis": "Satisfaction",
+"value":0.699},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

@@ -1,0 +1,31 @@
+[
+{
+"key":"Iraq",
+"values":[
+{
+"axis": "Happiness",
+"value":0.622},
+{
+"axis": "Freedom",
+"value":0.591},
+{
+"axis": "Leisure time",
+"value":0.647},
+{
+"axis": "Religion",
+"value":0.987},
+{
+"axis": "Work",
+"value":0.958},
+{
+"axis": "Satisfaction",
+"value":0.523},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

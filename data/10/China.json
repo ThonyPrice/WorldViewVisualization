@@ -1,0 +1,31 @@
+[
+{
+"key":"China",
+"values":[
+{
+"axis": "Happiness",
+"value":0.845},
+{
+"axis": "Freedom",
+"value":0.713},
+{
+"axis": "Leisure time",
+"value":0.698},
+{
+"axis": "Religion",
+"value":0.106},
+{
+"axis": "Work",
+"value":0.796},
+{
+"axis": "Satisfaction",
+"value":0.685},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

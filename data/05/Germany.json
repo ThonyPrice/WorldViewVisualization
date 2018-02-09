@@ -1,0 +1,31 @@
+[
+{
+"key":"Germany",
+"values":[
+{
+"axis": "Happiness",
+"value":0.812},
+{
+"axis": "Freedom",
+"value":0.68},
+{
+"axis": "Leisure time",
+"value":0.828},
+{
+"axis": "Religion",
+"value":0.332},
+{
+"axis": "Work",
+"value":0.798},
+{
+"axis": "Satisfaction",
+"value":0.713},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

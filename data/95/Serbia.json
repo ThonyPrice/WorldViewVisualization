@@ -1,0 +1,31 @@
+[
+{
+"key":"Serbia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.699},
+{
+"axis": "Freedom",
+"value":0.609},
+{
+"axis": "Leisure time",
+"value":0.715},
+{
+"axis": "Religion",
+"value":0.541},
+{
+"axis": "Work",
+"value":0.911},
+{
+"axis": "Satisfaction",
+"value":0.556},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

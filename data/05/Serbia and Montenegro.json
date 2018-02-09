@@ -1,0 +1,31 @@
+[
+{
+"key":"Serbia and Montenegro",
+"values":[
+{
+"axis": "Happiness",
+"value":0.622},
+{
+"axis": "Freedom",
+"value":0.645},
+{
+"axis": "Leisure time",
+"value":0.83},
+{
+"axis": "Religion",
+"value":0.655},
+{
+"axis": "Work",
+"value":0.892},
+{
+"axis": "Satisfaction",
+"value":0.601},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

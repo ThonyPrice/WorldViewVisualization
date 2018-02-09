@@ -1,0 +1,31 @@
+[
+{
+"key":"Indonesia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.921},
+{
+"axis": "Freedom",
+"value":0.739},
+{
+"axis": "Leisure time",
+"value":0.621},
+{
+"axis": "Religion",
+"value":0.98},
+{
+"axis": "Work",
+"value":0.96},
+{
+"axis": "Satisfaction",
+"value":0.691},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

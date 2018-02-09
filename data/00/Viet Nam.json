@@ -1,0 +1,31 @@
+[
+{
+"key":"Viet Nam",
+"values":[
+{
+"axis": "Happiness",
+"value":0.914},
+{
+"axis": "Freedom",
+"value":0.749},
+{
+"axis": "Leisure time",
+"value":0.58},
+{
+"axis": "Religion",
+"value":0.325},
+{
+"axis": "Work",
+"value":0.934},
+{
+"axis": "Satisfaction",
+"value":0.652},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

@@ -1,0 +1,31 @@
+[
+{
+"key":"Tanzania",
+"values":[
+{
+"axis": "Happiness",
+"value":0.931},
+{
+"axis": "Freedom",
+"value":0.58},
+{
+"axis": "Leisure time",
+"value":0.454},
+{
+"axis": "Religion",
+"value":0.873},
+{
+"axis": "Work",
+"value":0.91},
+{
+"axis": "Satisfaction",
+"value":0.387},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

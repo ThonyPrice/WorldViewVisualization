@@ -1,0 +1,31 @@
+[
+{
+"key":"Brazil",
+"values":[
+{
+"axis": "Happiness",
+"value":0.904},
+{
+"axis": "Freedom",
+"value":0.774},
+{
+"axis": "Leisure time",
+"value":0.842},
+{
+"axis": "Religion",
+"value":0.909},
+{
+"axis": "Work",
+"value":0.987},
+{
+"axis": "Satisfaction",
+"value":0.765},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

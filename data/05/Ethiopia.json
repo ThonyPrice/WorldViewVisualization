@@ -1,0 +1,31 @@
+[
+{
+"key":"Ethiopia",
+"values":[
+{
+"axis": "Happiness",
+"value":0.634},
+{
+"axis": "Freedom",
+"value":0.617},
+{
+"axis": "Leisure time",
+"value":0.812},
+{
+"axis": "Religion",
+"value":0.936},
+{
+"axis": "Work",
+"value":0.98},
+{
+"axis": "Satisfaction",
+"value":0.499},
+{
+"axis": "Health",
+"value":0.681},
+{
+"axis": "Trust",
+"value":0.254}
+]
+}
+]

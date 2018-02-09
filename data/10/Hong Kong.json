@@ -1,0 +1,31 @@
+[
+{
+"key":"Hong Kong",
+"values":[
+{
+"axis": "Happiness",
+"value":0.891},
+{
+"axis": "Freedom",
+"value":0.687},
+{
+"axis": "Leisure time",
+"value":0.87},
+{
+"axis": "Religion",
+"value":0.334},
+{
+"axis": "Work",
+"value":0.8},
+{
+"axis": "Satisfaction",
+"value":0.685},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

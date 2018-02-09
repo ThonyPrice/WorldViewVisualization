@@ -1,0 +1,31 @@
+[
+{
+"key":"Yemen",
+"values":[
+{
+"axis": "Happiness",
+"value":0.721},
+{
+"axis": "Freedom",
+"value":0.64},
+{
+"axis": "Leisure time",
+"value":0.553},
+{
+"axis": "Religion",
+"value":0.986},
+{
+"axis": "Work",
+"value":0.85},
+{
+"axis": "Satisfaction",
+"value":0.589},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

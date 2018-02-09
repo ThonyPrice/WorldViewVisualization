@@ -1,0 +1,31 @@
+[
+{
+"key":"Palestine",
+"values":[
+{
+"axis": "Happiness",
+"value":0.744},
+{
+"axis": "Freedom",
+"value":0.686},
+{
+"axis": "Leisure time",
+"value":0.696},
+{
+"axis": "Religion",
+"value":0.969},
+{
+"axis": "Work",
+"value":0.843},
+{
+"axis": "Satisfaction",
+"value":0.562},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

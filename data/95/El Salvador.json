@@ -1,0 +1,31 @@
+[
+{
+"key":"El Salvador",
+"values":[
+{
+"axis": "Happiness",
+"value":0.92},
+{
+"axis": "Freedom",
+"value":0.75},
+{
+"axis": "Leisure time",
+"value":0.885},
+{
+"axis": "Religion",
+"value":0.947},
+{
+"axis": "Work",
+"value":0.981},
+{
+"axis": "Satisfaction",
+"value":0.75},
+{
+"axis": "Health",
+"value":0.582},
+{
+"axis": "Trust",
+"value":0.241}
+]
+}
+]

@@ -1,0 +1,31 @@
+[
+{
+"key":"Iran",
+"values":[
+{
+"axis": "Happiness",
+"value":0.576},
+{
+"axis": "Freedom",
+"value":0.662},
+{
+"axis": "Leisure time",
+"value":0.682},
+{
+"axis": "Religion",
+"value":0.938},
+{
+"axis": "Work",
+"value":0.932},
+{
+"axis": "Satisfaction",
+"value":0.638},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

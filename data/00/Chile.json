@@ -1,0 +1,31 @@
+[
+{
+"key":"Chile",
+"values":[
+{
+"axis": "Happiness",
+"value":0.799},
+{
+"axis": "Freedom",
+"value":0.718},
+{
+"axis": "Leisure time",
+"value":0.877},
+{
+"axis": "Religion",
+"value":0.797},
+{
+"axis": "Work",
+"value":0.943},
+{
+"axis": "Satisfaction",
+"value":0.712},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

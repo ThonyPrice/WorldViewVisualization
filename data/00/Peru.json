@@ -1,0 +1,31 @@
+[
+{
+"key":"Peru",
+"values":[
+{
+"axis": "Happiness",
+"value":0.661},
+{
+"axis": "Freedom",
+"value":0.723},
+{
+"axis": "Leisure time",
+"value":0.512},
+{
+"axis": "Religion",
+"value":0.839},
+{
+"axis": "Work",
+"value":0.974},
+{
+"axis": "Satisfaction",
+"value":0.644},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]

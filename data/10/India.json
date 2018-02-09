@@ -1,0 +1,31 @@
+[
+{
+"key":"India",
+"values":[
+{
+"axis": "Happiness",
+"value":0.874},
+{
+"axis": "Freedom",
+"value":0.688},
+{
+"axis": "Leisure time",
+"value":0.701},
+{
+"axis": "Religion",
+"value":0.913},
+{
+"axis": "Work",
+"value":0.941},
+{
+"axis": "Satisfaction",
+"value":0.652},
+{
+"axis": "Health",
+"value":0.704},
+{
+"axis": "Trust",
+"value":0.238}
+]
+}
+]

@@ -1,0 +1,31 @@
+[
+{
+"key":"Bangladesh",
+"values":[
+{
+"axis": "Happiness",
+"value":0.774},
+{
+"axis": "Freedom",
+"value":0.565},
+{
+"axis": "Leisure time",
+"value":0.691},
+{
+"axis": "Religion",
+"value":0.982},
+{
+"axis": "Work",
+"value":0.989},
+{
+"axis": "Satisfaction",
+"value":0.578},
+{
+"axis": "Health",
+"value":0.68},
+{
+"axis": "Trust",
+"value":0.269}
+]
+}
+]
