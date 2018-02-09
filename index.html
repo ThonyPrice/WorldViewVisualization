@@ -105,19 +105,21 @@
     <!-- BUTTONS -->
     <div class="row">
       <div class="btn-group col-md-12" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary col-md-4" onclick="changePrint(1)">First</button>
-        <button type="button" class="btn btn-secondary col-md-4" onclick="changePrint(2)">Second</button>
-        <button type="button" class="btn btn-secondary col-md-4" onclick="changePrint(3)">Third</button>
+        <button type="button" class="btn btn-secondary col-md-4 btn-1" onclick="changePrint(1)">First
+          <div class="inline" id="click-feature-1">None</div> <!-- Clicking on the map puts country name in here -->
+        </button>
+        <button type="button" class="btn btn-secondary col-md-4 btn-2" onclick="changePrint(2)">Second
+          <div class="inline" id="click-feature-2"> None 2 </div> <!-- Clicking on the map puts country name in here -->
+        </button>
+        <button type="button" class="btn btn-secondary col-md-4 btn-3" onclick="changePrint(3)">Third
+          <div class="inline" id="click-feature-3"> None 3 </div> <!-- Clicking on the map puts country name in here -->
+        </button>
       </div>
     </div>
 
     <!-- RADIAL CHARTS 1 -->
-    <div class="inline" align="center">
-      <div class="inline"><i align="center">First Selected: </i></div>
-      <div class="inline" id="click-feature-1"> None </div> <!-- Clicking on the map puts country name in here -->
-    </div><br>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 first-chart">
         <div class="col-md-3 radarChart1-1"><div id="radarChart1-1"></div>1995  -  1998</div>
         <div class="col-md-3 radarChart2-1"><div id="radarChart2-1"></div>1999  -  2004</div>
         <div class="col-md-3 radarChart3-1"><div id="radarChart3-1"></div>2005  -  2009</div>
@@ -126,12 +128,8 @@
     </div>
 
     <!-- RADIAL CHARTS 2 -->
-    <div class="inline" align="center">
-      <div class="inline"><i align="center">Second Selected: </i></div>
-      <div class="inline" id="click-feature-2"> None </div> <!-- Clicking on the map puts country name in here -->
-    </div><br>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 second-chart">
         <div class="col-md-3 radarChart1-2"><div id="radarChart1-2"></div>1995  -  1998</div>
         <div class="col-md-3 radarChart2-2"><div id="radarChart2-2"></div>1999  -  2004</div>
         <div class="col-md-3 radarChart3-2"><div id="radarChart3-2"></div>2005  -  2009</div>
@@ -140,12 +138,8 @@
     </div>
 
     <!-- RADIAL CHARTS 3 -->
-    <div class="inline" align="center">
-      <div class="inline"><i align="center">Third Selected: </i></div>
-      <div class="inline" id="click-feature-3"> None </div> <!-- Clicking on the map puts country name in here -->
-    </div><br>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 third-chart">
         <div class="col-md-3 radarChart1-3"><div id="radarChart1-3"></div>1995  -  1998</div>
         <div class="col-md-3 radarChart2-3"><div id="radarChart2-3"></div>1999  -  2004</div>
         <div class="col-md-3 radarChart3-3"><div id="radarChart3-3"></div>2005  -  2009</div>
