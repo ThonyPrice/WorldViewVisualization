@@ -1,0 +1,31 @@
+[
+{
+"key":"None",
+"values":[
+{
+"axis": "Happiness",
+"value":0.0},
+{
+"axis": "Freedom",
+"value":0.0},
+{
+"axis": "Leisure time",
+"value":0.0},
+{
+"axis": "Religion",
+"value":0.0},
+{
+"axis": "Work",
+"value":0.0},
+{
+"axis": "Satisfaction",
+"value":0.0},
+{
+"axis": "Health",
+"value":0.0},
+{
+"axis": "Trust",
+"value":0.0}
+]
+}
+]
