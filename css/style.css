@@ -122,21 +122,57 @@ div.tooltip {
   font-size: 28px;
 }
 
-.first-chart {
-  background-color: #cccccc;
+.label-1 {
+  background-color: #ffe5ef;
 }
-.second-chart {
-  background-color: #bbbbbb;
+.label-2 {
+  background-color: #ffd7e9;
 }
-.third-chart {
-  background-color: #aaaaaa;
+.label-3 {
+  background-color: #ffd0d0;
+}
+.radarchart1-1 {
+  background-color: #ffe5ef;
+}
+.radarchart1-2 {
+  background-color: #ffd7e9;
+}
+.radarchart1-3 {
+  background-color: #ffd0d0;
+}
+.radarchart2-1 {
+  background-color: #ffe5ef;
+}
+.radarchart2-2 {
+  background-color: #ffd7e9;
+}
+.radarchart2-3 {
+  background-color: #ffd0d0;
+}
+.radarchart3-1 {
+  background-color: #ffe5ef;
+}
+.radarchart3-2 {
+  background-color: #ffd7e9;
+}
+.radarchart3-3 {
+  background-color: #ffd0d0;
+}
+.radarchart4-1 {
+  background-color: #ffe5ef;
+}
+.radarchart4-2 {
+  background-color: #ffd7e9;
+}
+.radarchart4-3 {
+  background-color: #ffd0d0	;
 }
 .btn-1 {
-  background-color: #cccccc;
+  background-color: #ffe5ef;
 }
 .btn-2 {
-  background-color: #bbbbbb;
+  background-color: #ffd7e9;
 }
 .btn-3 {
-  background-color: #aaaaaa;
+  background-color: #ffd0d0	;
 }
