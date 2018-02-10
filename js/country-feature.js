@@ -25,6 +25,7 @@ function printCountry1(d, i) {
   var path2 = "data/00/" + country + ".json";
   var path3 = "data/05/" + country + ".json";
   var path4 = "data/10/" + country + ".json";
+  var path5 = "data/empty.json";
 
   //////////////////////////////////////////////////////////////
   //////////////////////// Set-Up //////////////////////////////
@@ -55,38 +56,50 @@ function printCountry1(d, i) {
   d3.json(path1, function(error, data){
     try {
       RadarChart(".radarChart1-1", data, radarChartOptions);
-      document.getElementById("radarChart1-1").innerHTML = "";
+      document.getElementById("radarChart1-1").innerHTML = "&nbsp";
     }
     catch(err) {
       document.getElementById("radarChart1-1").innerHTML = "No data collected";
+      d3.json("data/empty.json", function(error, data){
+          RadarChart(".radarChart1-1", data, radarChartOptions);
+      });
     }
   });
 
   d3.json(path2, function(error, data){
     try {
       RadarChart(".radarChart2-1", data, radarChartOptions);
-      document.getElementById("radarChart2-1").innerHTML = "";
+      document.getElementById("radarChart2-1").innerHTML = "&nbsp";
     }
     catch(err) {
       document.getElementById("radarChart2-1").innerHTML = "No data collected";
+      d3.json(path5, function(error, data){
+          RadarChart(".radarChart2-1", data, radarChartOptions);
+      });
     }
   });
   d3.json(path3, function(error, data){
     try {
       RadarChart(".radarChart3-1", data, radarChartOptions);
-      document.getElementById("radarChart3-1").innerHTML = "";
+      document.getElementById("radarChart3-1").innerHTML = "&nbsp";
     }
     catch(err) {
       document.getElementById("radarChart3-1").innerHTML = "No data collected";
+      d3.json(path5, function(error, data){
+          RadarChart(".radarChart3-1", data, radarChartOptions);
+      });
     }
   });
   d3.json(path4, function(error, data){
     try {
       RadarChart(".radarChart4-1", data, radarChartOptions);
-      document.getElementById("radarChart4-1").innerHTML = "";
+      document.getElementById("radarChart4-1").innerHTML = "&nbsp";
     }
     catch(err) {
       document.getElementById("radarChart4-1").innerHTML = "No data collected";
+      d3.json(path5, function(error, data){
+          RadarChart(".radarChart4-1", data, radarChartOptions);
+      });
     }
   });
 }
@@ -130,38 +143,50 @@ function printCountry2(d, i) {
   d3.json(path1, function(error, data){
     try {
       RadarChart(".radarChart1-2", data, radarChartOptions);
-      document.getElementById("radarChart1-2").innerHTML = "";
+      document.getElementById("radarChart1-2").innerHTML = "&nbsp";
     }
     catch(err) {
       document.getElementById("radarChart1-2").innerHTML = "No data collected";
+      d3.json("data/empty.json", function(error, data){
+          RadarChart(".radarChart1-2", data, radarChartOptions);
+      });
     }
   });
 
   d3.json(path2, function(error, data){
     try {
       RadarChart(".radarChart2-2", data, radarChartOptions);
-      document.getElementById("radarChart2-2").innerHTML = "";
+      document.getElementById("radarChart2-2").innerHTML = "&nbsp";
     }
     catch(err) {
       document.getElementById("radarChart2-2").innerHTML = "No data collected";
+      d3.json("data/empty.json", function(error, data){
+          RadarChart(".radarChart2-2", data, radarChartOptions);
+      });
     }
   });
   d3.json(path3, function(error, data){
     try {
       RadarChart(".radarChart3-2", data, radarChartOptions);
-      document.getElementById("radarChart3-2").innerHTML = "";
+      document.getElementById("radarChart3-2").innerHTML = "&nbsp";
     }
     catch(err) {
       document.getElementById("radarChart3-2").innerHTML = "No data collected";
+      d3.json("data/empty.json", function(error, data){
+          RadarChart(".radarChart3-2", data, radarChartOptions);
+      });
     }
   });
   d3.json(path4, function(error, data){
     try {
       RadarChart(".radarChart4-2", data, radarChartOptions);
-      document.getElementById("radarChart4-2").innerHTML = "";
+      document.getElementById("radarChart4-2").innerHTML = "&nbsp";
     }
     catch(err) {
       document.getElementById("radarChart4-2").innerHTML = "No data collected";
+      d3.json("data/empty.json", function(error, data){
+          RadarChart(".radarChart4-2", data, radarChartOptions);
+      });
     }
   });
 }
@@ -205,38 +230,50 @@ function printCountry3(d, i) {
   d3.json(path1, function(error, data){
     try {
       RadarChart(".radarChart1-3", data, radarChartOptions);
-      document.getElementById("radarChart1-3").innerHTML = "";
+      document.getElementById("radarChart1-3").innerHTML = "&nbsp";
     }
     catch(err) {
       document.getElementById("radarChart1-3").innerHTML = "No data collected";
+      d3.json("data/empty.json", function(error, data){
+          RadarChart(".radarChart1-3", data, radarChartOptions);
+      });
     }
   });
 
   d3.json(path2, function(error, data){
     try {
       RadarChart(".radarChart2-3", data, radarChartOptions);
-      document.getElementById("radarChart2-3").innerHTML = "";
+      document.getElementById("radarChart2-3").innerHTML = "&nbsp";
     }
     catch(err) {
       document.getElementById("radarChart2-3").innerHTML = "No data collected";
+      d3.json("data/empty.json", function(error, data){
+          RadarChart(".radarChart2-3", data, radarChartOptions);
+      });
     }
   });
   d3.json(path3, function(error, data){
     try {
       RadarChart(".radarChart3-3", data, radarChartOptions);
-      document.getElementById("radarChart3-3").innerHTML = "";
+      document.getElementById("radarChart3-3").innerHTML = "&nbsp";
     }
     catch(err) {
       document.getElementById("radarChart3-3").innerHTML = "No data collected";
+      d3.json("data/empty.json", function(error, data){
+          RadarChart(".radarChart3-3", data, radarChartOptions);
+      });
     }
   });
   d3.json(path4, function(error, data){
     try {
       RadarChart(".radarChart4-3", data, radarChartOptions);
-      document.getElementById("radarChart4-3").innerHTML = "";
+      document.getElementById("radarChart4-3").innerHTML = "&nbsp";
     }
     catch(err) {
       document.getElementById("radarChart4-3").innerHTML = "No data collected";
+      d3.json("data/empty.json", function(error, data){
+          RadarChart(".radarChart4-3", data, radarChartOptions);
+      });
     }
   });
 }
