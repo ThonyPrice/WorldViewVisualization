@@ -11,6 +11,9 @@
   <link href="css/bootstrap.css" rel="stylesheet"/>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="js/radarChart.js"></script>
+  <script src="js/d3.min.js"></script>
+  <script src="js/topojson.v1.min.js"></script>
+  <script src="js/country-feature.js"></script>
 </head>
 
 <body>
@@ -32,13 +35,16 @@
 
 <!-- DATA GATHERING -->
 <div class="row">
-    <p class="w3-large w3-center">Data Gathering</p>
+    <h2 class="text-center">Data Gathering</h2>
     <div class="center-block">
       I went through the
       <a href="http://www.worldvaluessurvey.org/WVSContents.jsp">World Value Survey
       </a> (WVS) documentation in order to find interesting questions where answers had
       evolved over time. I saved the snapshots of my findings create a data record
-      of eight variables.
+      of eight variables. See choosen variables in slides below.
+      <!-- Unfortunately the online tool on WVS can't display timelines over
+      larger timespans than three waves and makes it hard to find correlation
+      between the questions. -->
       <div class="slide-container">
         <img src="images/datatrail1.jpg" />
         <img src="images/datatrail2.jpg" />
@@ -49,28 +55,44 @@
         <img src="images/datatrail7.jpg" />
         <img src="images/datatrail8.jpg" />
       </div>
-      <p align="center" style="padding: 5;">
+      <p align="center">
         <i>Slide right / left to showcase different data variables</i>
       </p>
-      Unfortunately the online tool on WVS can't display timelines over
-      larger timespans than three waves and makes it hard to find correlation
-      between the questions.
     </div>
 </div>
-
-<br><br>
+<br>
 
 <!-- ANALYTIC TRAIL -->
 <div class="row">
-  <p class="w3-large w3-center">Analytic trail</p>
+  <h2 class="text-center">What To Ask The Data</h2>
   <div class="center-block">
-    At a first glance Happiness seems to increase, we wish
-    to investigate the increase over time and countries.
-    <!-- <div align="right">
-      <input type="checkbox"> <strong>Sort values</strong>
-    </div>
-    <div class="barchart" id="barchart"></div>
-    <script src="js/barchart.js"></script> -->
+
+    <img id="ask" src="/images/ask_data.png" height="250px" float/>
+    Studying the values of individual countries I wondered if there ins
+    any correlation between any of the eight variables. Especially I wanted to
+    investigate a preconception of mine, if one beleives religion if of
+    great importance, does this lessen the feeling of freedom in life?
+
+    Other ineresting questions would be if importance of work has a negative
+    or a positive correlation with importance of leisure time, working more
+    would likely increase how much one values time of, or is it hte other way around?
+
+    Time bring in time as a variable it would be really neat to see if
+    the feeling of happiness is increasing or decreasing in the world
+    (fingers crossed!).
+
+    <h4>Short version</h4>
+    <ul>
+      <li>
+        <h4>Analytic trail 1</h4>
+        High importance of religion in a country may or may not
+        indicate less feeling of freedom.
+      </li>
+      <li>
+        <h4>Analytic trail 2</h4>
+        Are we getting happier?
+      </li>
+    </ul>
   </div>
 
     <!-- <script>
@@ -80,20 +102,21 @@
     </script> -->
 
 </div>
-
-<br><br>
+<br>
 
 <!-- WORLD MAP -->
 <div class="row">
-  <p class="w3-large w3-center">World Map</p>
-  <div class="center-block" id="container">
-    <script src="js/d3.min.js"></script>
-    <script src="js/topojson.v1.min.js"></script>
+  <h2 class="text-center">Let's Investigate!</h2>
+  <div class="center-block">
+    <div id="container"></div>
+    <!-- Map will render here -->
     <script src="js/map.js"></script>
-    <script src="js/country-feature.js"></script>
-    <br><br>
+    <br>
+    Some stuff here..? Slider and dropdown?
   </div>
+
 </div>
+<br>
 
 <!-- MAP FEATURES -->
 <div class="row">
@@ -116,7 +139,7 @@
         </button>
       </div>
     </div>
-
+    <br>
     <!-- RADIAL CHARTS -->
     <!-- LABEL -->
     <div class="row">
