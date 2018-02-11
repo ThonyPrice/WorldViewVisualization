@@ -39,8 +39,8 @@
     <div class="center-block">
       I went through the
       <a href="http://www.worldvaluessurvey.org/WVSContents.jsp">World Value Survey
-      </a> (WVS) documentation in order to find interesting questions where answers had
-      evolved over time. I saved the snapshots of my findings create a data record
+      </a> (WVS) documentation in order to find interesting questions where the answers
+      had evolved over time. I saved the snapshots of my findings to create a data record
       of eight variables. See choosen variables in slides below.
       <!-- Unfortunately the online tool on WVS can't display timelines over
       larger timespans than three waves and makes it hard to find correlation
@@ -56,7 +56,7 @@
         <img src="images/datatrail8.jpg" />
       </div>
       <p align="center">
-        <i>Slide right / left to showcase different data variables</i>
+        <i>Slide left / right to showcase different data variables</i>
       </p>
     </div>
 </div>
@@ -68,16 +68,16 @@
   <div class="center-block">
 
     <img id="ask" src="/images/ask_data.png" height="250px" float/>
-    Studying the values of individual countries I wondered if there ins
-    any correlation between any of the eight variables. Especially I wanted to
-    investigate a preconception of mine, if one beleives religion if of
+    Studying the values of individual countries I wondered if there's
+    any correlation between different questions. Especially I wanted to
+    investigate a preconception of mine, if one beleives religion is of
     great importance, does this lessen the feeling of freedom in life?
 
-    Other ineresting questions would be if importance of work has a negative
+    An other interesting questions would be if importance of work has a negative
     or a positive correlation with importance of leisure time, working more
-    would likely increase how much one values time of, or is it hte other way around?
+    would likely increase how much one values time off, or is it the other way around?
 
-    Time bring in time as a variable it would be really neat to see if
+    Trying to bring in time as a variable, it would be really neat to see if
     the feeling of happiness is increasing or decreasing in the world
     (fingers crossed!).
 
@@ -85,7 +85,7 @@
     <ul>
       <li>
         <h4>Analytic trail 1</h4>
-        High importance of religion in a country may or may not
+        High importance of religion in a country may, or may not,
         indicate less feeling of freedom.
       </li>
       <li>
@@ -94,13 +94,6 @@
       </li>
     </ul>
   </div>
-
-    <!-- <script>
-      d3.json("/data/happiness95.json", function(data) {
-        console.log(data[0]);
-        });
-    </script> -->
-
 </div>
 <br>
 
@@ -122,19 +115,21 @@
 <div class="row">
   <div class="center-block">
     <p align="center">
-      <h4 align="center">Click a box, then a country to display it's results in WVS questions</h4>
+      <p align="center">
+        <i>Select a column, then a country on the map to display it's it's results in WVS questions</i>
+      </p>
     </p>
 
     <!-- BUTTONS -->
     <div class="row">
       <div class="btn-group col-md-12" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary col-md-4 btn-1" onclick="changePrint(1)">First
+        <button type="button" class="btn btn-secondary col-md-4 btn-1" onclick="changePrint(1)">
           <div class="inline" id="click-feature-1">Country 1</div> <!-- Clicking on the map puts country name in here -->
         </button>
-        <button type="button" class="btn btn-secondary col-md-4 btn-2" onclick="changePrint(2)">Second
+        <button type="button" class="btn btn-secondary col-md-4 btn-2" onclick="changePrint(2)">
           <div class="inline" id="click-feature-2"> Country 2 </div> <!-- Clicking on the map puts country name in here -->
         </button>
-        <button type="button" class="btn btn-secondary col-md-4 btn-3" onclick="changePrint(3)">Third
+        <button type="button" class="btn btn-secondary col-md-4 btn-3" onclick="changePrint(3)">
           <div class="inline" id="click-feature-3"> Country 3 </div> <!-- Clicking on the map puts country name in here -->
         </button>
       </div>
