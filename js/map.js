@@ -1,4 +1,10 @@
 d3.select(window).on("resize", throttle);
+var curr_wave = '95';
+
+function setWave(wave) {
+  curr_wave = wave;
+  throttle();
+}
 
 var zoom = d3.behavior.zoom()
   .scaleExtent([1, 9])
@@ -72,7 +78,16 @@ country.enter().insert("path")
     .attr("title", function(d,i) { return d.properties.name; })
     .style("fill", function(d, i) {
       if (countries.includes(d.properties.name)) {
-        return d.properties.color;
+        var wave = curr_wave;
+        var country = d.properties.name;
+        var path = 'data/' + wave + '/' + d.properties.name + '.json';
+        var h_value = getHappiness(path);
+        if (h_value == null) {
+          return "#aaaaaa";
+        }
+        // console.log("H-value: ", h_value);
+        // console.log("Color: ", color);
+        return hslToHex(216, 100, h_value*100);
       } else {
         return "#aaaaaa";
       }
@@ -114,6 +129,51 @@ d3.csv("data/country-capitals.csv", function(err, capitals) {
 
 }
 
+function hslToHex(h, s, l) {
+  h /= 360;
+  s /= 100;
+  l /= 100;
+  let r, g, b;
+  if (s === 0) {
+    r = g = b = l; // achromatic
+  } else {
+    const hue2rgb = (p, q, t) => {
+      if (t < 0) t += 1;
+      if (t > 1) t -= 1;
+      if (t < 1 / 6) return p + (q - p) * 6 * t;
+      if (t < 1 / 2) return q;
+      if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
+      return p;
+    };
+    const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+    const p = 2 * l - q;
+    r = hue2rgb(p, q, h + 1 / 3);
+    g = hue2rgb(p, q, h);
+    b = hue2rgb(p, q, h - 1 / 3);
+  }
+  const toHex = x => {
+    const hex = Math.round(x * 255).toString(16);
+    return hex.length === 1 ? '0' + hex : hex;
+  };
+  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+}
+
+function getHappiness(path){
+    var result = null;
+    $.ajax({
+        async: false,
+        url: path,
+        dataType: "json",
+        success: function(data){
+            result = data;
+        }
+    });
+    try {
+      return result[0].values[0].value;
+    } catch(err) {
+      return null;
+    }
+}
 
 function redraw() {
 width = document.getElementById('container').offsetWidth;
