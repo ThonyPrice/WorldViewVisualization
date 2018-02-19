@@ -95,6 +95,37 @@
         Are we getting happier?
       </li>
     </ul>
+    
+    Please engage in the map below to find out yourself OR 
+    <a href="#section2">click here to scroll to the conclusion.</a>
+    <!-- SCROLL DOWN SCRIPT -->
+    <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+         
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+    </script>
+        
   </div>
 </div>
 <br>
@@ -116,7 +147,7 @@
     <script>
     var slider = document.getElementById("myRange");
     var output = document.getElementById("demo");
-    output.innerHTML = '1995 - 1998';
+    output.innerHTML = '1995 - 1998' + '   (lighter shade --> more happy!)';
 
     slider.oninput = function() {
       var value;
@@ -133,7 +164,7 @@
         setWave('10');
         value = '2010 - 2014';
       }
-      output.innerHTML = value;
+      output.innerHTML = value + '   (lighter shade --> more happy!)';
     }
     </script>    
     
@@ -246,10 +277,64 @@
     </div>
   </div>
 </div>
+<br>
+
+<!-- WHAT DID WE FIND? -->
+<div class="row" style="height:auto;">
+  <h2 class="text-center" id="section2">What Did We Find?</h2>
+  <div class="center-block">
+  <div >
+    <img class="img-responsive" src="images/high_religion.jpg" width="70%" style="padding-bottom:10px;margin-left:10px;float:right;"/>
+    <img class="img-responsive" src="images/low_religion.jpg" width="70%" style="padding-bottom:10px;margin-left:10px;float:right;"/>
+    <h4>Is the a correlation between religion and freedom?</h4>
+    
+    As we look at the radar charts at top to the right representing Algeria, 
+    Lybia and Yemen we can tell that though all are clearly above average when 
+    it comes to importance of religion all are also around avera when it comes
+    to feeling of freedom. Furthermore if we look at contries with religion 
+    clearly below average on religion (Sweden, China and Germany) all of these
+    are also around average when it comes to feeling of freedom. Conclusion, 
+    there are no obvious correlation on religion and freedom from this data.
+    
+    <br><br>
+    <h4>Are we getting happier?</h4>
+    
+    Representing the numerical data (percent of people feeling happy or 
+    very happy with their life) with a shade of blue in the map at a glance 
+    it's very easy to tell that the overall feeling of happiness have increased 
+    in the world when moving the slider from the earliest wave to the most 
+    recently and comparing these views above. 
+    
+    <img class="img-responsive" src="images/low_happy.jpg" width="100%" style="padding-bottom:10px;margin-left:10px;"/>
+    <img class="img-responsive" src="images/high_happy.jpg" width="100%" style="padding-bottom:10px;margin-left:10px;"/>
+    
+  </div>  
+  </div>
+</div>
+<br>
+
+<!-- LEARNINGS -->
+<div class="row">
+  <h2 class="text-center" id="section2">Learnings</h2>
+  <div class="center-block">
+
+    During the making of this page and the visualizations I've learned a lot more 
+    about D3JS and javascript in general as this course is my first encounter 
+    with js. I also relised the challanges that occur when trying to visualize
+    many different variables at once and learned a few tricks like radar charts 
+    when it comes to categorical data (as siggested in the latest reading) and 
+    how making use of placement makes much sense when working with something as 
+    familiar as countries. I still got a lot to learn :) 
+  </div>
+</div>
+<br>
 
 <br><br><br>
 
-<div style="margin=20px;">By: Thony Price (C) 2018</div>
+<div class="row">
+  <div class="col-md-2" style="float:right;">By: Thony Price (C) 2018</div>
+</div>
+
 <br><br>
 
 </body>
