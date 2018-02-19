@@ -14,6 +14,8 @@
   <script src="js/d3.min.js"></script>
   <script src="js/topojson.v1.min.js"></script>
   <script src="js/country-feature.js"></script>
+  <script src="js/require.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -105,7 +107,36 @@
     <!-- Map will render here -->
     <script src="js/map.js"></script>
     <br>
-    Some stuff here..? Slider and dropdown?
+    <div class="slidecontainer">
+    <input type="range" min="1" max="4" value="1" class="slider" id="myRange">
+      <br>
+      <p>Wave: <span id="demo"></span></p>
+    </div>
+    
+    <script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = '1995 - 1998';
+
+    slider.oninput = function() {
+      var value;
+      if (this.value == 1) {
+        setWave('95');
+        value = '1995 - 1998';
+      } if (this.value == 2) {
+        setWave('00');
+        value = '1999 - 2004';
+      } if (this.value == 3) {
+        setWave('05');
+        value = '2005 - 2009';
+      } if (this.value == 4) {
+        setWave('10');
+        value = '2010 - 2014';
+      }
+      output.innerHTML = value;
+    }
+    </script>    
+    
   </div>
 
 </div>
