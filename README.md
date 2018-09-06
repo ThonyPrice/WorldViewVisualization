@@ -11,7 +11,7 @@ This project is course work for DH2321 - Information visualization. The task was
 
 The approach was representing the data at a glance in a map of the world, let the user select data of multiple countries to study any correlations of different values and at the same time compare different regions in the same aspect. I was happy to conclude, among other things, the world is (accordingly to this data) in fact getting happier! :smiley:
 
-The project is currently viewable [https://thonyprice.github.io/WorldViewVisualization/](HERE)
+The project is currently viewable https://thonyprice.github.io/WorldViewVisualization/
 
 ## Implementation
 
